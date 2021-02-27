@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawMaterialApis", "RawMaterialApis\RawMaterialApis.csproj", "{FA55ADB6-C3EA-43AF-B155-AAAA0E9689C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA55ADB6-C3EA-43AF-B155-AAAA0E9689C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA55ADB6-C3EA-43AF-B155-AAAA0E9689C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA55ADB6-C3EA-43AF-B155-AAAA0E9689C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA55ADB6-C3EA-43AF-B155-AAAA0E9689C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B0AA5A4-0116-44F3-A67B-A3FA571B627B}
+	EndGlobalSection
+EndGlobal
