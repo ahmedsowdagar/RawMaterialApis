@@ -24,7 +24,7 @@ namespace RawMaterialApis.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> GetAll()
         {
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -36,10 +36,12 @@ namespace RawMaterialApis.Controllers
             .ToArray();
         }
 
-        [HttpGet]
-        public IEnumerable<WHM> Get()
+        [HttpGet("{id}")]
+        public WHM GetById(int id)
         {
-            Logger.
+            _logger.LogError("This is the error from getbyid method");
+            throw new Exception();
+            //return new WHM();
         }
     }
 }

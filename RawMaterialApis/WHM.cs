@@ -7,3 +7,4 @@ namespace RawMaterialApis
         public string Summary { get; set; }
     }
 }
+
